@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.img {
+  height: 10vh;
+  border-radius: 36px;
+}
+
+.head {
+  display: flex;
+  height: 10vh;
+  margin-bottom: 10px;
+  background-color: #7834fc;
+}
+
+.logo {
+  margin-left: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.mp1-inner{
+  display: flex;
+  justify-content: space-around;
+}
+
+.d-mp1{
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: rgb(50, 50, 255);
+}
+
+.download-mp1{
+  /* border-radius: px; */
+  width: 5vw;
+  height: 5vh;
+  background-color: rgb(255, 0, 0);
+  position: relative;
+  top: 23px;
+}
+
+.play-mp1{
+  /* border-radius: 36px; */
+  width: 5vw;
+  height: 5vh;
+  background-color: rgb(212, 213, 226);
+  position: relative;
+  top: 23px;
+}
+
+/* 
+.pause{
+  /* border-radius: 36px; */
+  /* width: 5vw; */
+  /* height: 5vh; */
+  /* background-color: rgba(255, 140, 249, 0.853); */
+  /* position: relative; */
+  /* top: 23px; */ 
+  /* } */
+  
+  .mp1{
+    background-color: greenyellow;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media (max-width:1300px){
+    
+    .play-mp1{
+      /* border-radius: 36px; */
+      width: 5vw;
+      height: 5vh;
+      color: rgb(212, 213, 226) ;
+      background-color: rgb(212, 213, 226);
+      position: relative;
+      top: 23px;
+      font-size: 1px;
+    }
+    .download-mp1{
+      /* border-radius: px; */
+      width: 5vw;
+      height: 5vh;
+      color:  rgb(255, 0, 0);
+      font-size: 1px;
+      background-color: rgb(255, 0, 0);
+      position: relative;
+      top: 23px;
+    }
+  }
